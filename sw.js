@@ -1,7 +1,6 @@
 // Service Worker — Grupo TREND Tasks PWA
 const CACHE = 'trend-tasks-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json', '/icon-192.png', '/icon-512.png'];
-
+const ASSETS = ['/trend-tasks/', '/trend-tasks/index.html', '/trend-tasks/manifest.json', '/trend-tasks/icon-192.png', '/trend-tasks/icon-512.png'];
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(CACHE).then(function(c) { return c.addAll(ASSETS); })
