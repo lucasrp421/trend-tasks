@@ -2,7 +2,7 @@
   "name": "Grupo TREND — Tarefas",
   "short_name": "TREND Tasks",
   "description": "Gerenciador de tarefas do Grupo TREND",
-  "start_url": "/",
+  "start_url": "/trend-tasks/"
   "display": "standalone",
   "background_color": "#0f0f1a",
   "theme_color": "#6c63ff",
